@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #2c2c2c;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.section .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section.expanded .header {
+    margin-bottom: 10px;
+}
+
+.section.expanded .expanded-info {
+    display: block;
+}
+
+.section .expanded-info {
+    display: none;
+    margin-top: 10px;
+}
+
+.section p {
+    margin: 5px 0;
+}
